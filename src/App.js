@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Styles/navbar.css';
-import {BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, NavLink, HashRouter} from 'react-router-dom'
 import AboutUs from './Sites/AboutUs';
 import Breeders from './Sites/Breeders';
 import Hatchlings from './Sites/Hatchlings';
@@ -26,7 +26,7 @@ function App() {
     
     return (   
     <>
-<Router>
+<HashRouter>
         <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
@@ -60,7 +60,7 @@ function App() {
         </Routes>
         </div>
         <Footer></Footer>
- </Router>
+ </HashRouter>
  </>
  )   
 }
