@@ -7,9 +7,7 @@ import './Styles/main_css.css';
 import './Styles/querries.css';
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>,
+    <App />,
   document.getElementById('root')
 );
 reportWebVitals();
