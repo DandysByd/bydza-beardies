@@ -1,0 +1,43 @@
+body{
+    /**background-image: url('../images/terariums.jpg');*/
+    background-image: linear-gradient( rgb(43, 42, 42),#b8b2ab);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Lora,sans-serif;
+    margin: 0%;
+}
+*{
+  font-family: 'Fredoka', sans-serif !important;
+}
+#main{
+  height: 100%;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+.spacing{
+  height: 140px;
+}
+.everything-div{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+}
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  min-height: 1200px;
+}
+/* 1250 / 600 */

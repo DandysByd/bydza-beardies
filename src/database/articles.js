@@ -1,0 +1,38 @@
+module.exports = [
+    {
+        id : 0,
+        header: 'Work in progress',
+        image_first: require('../images/placeholder-image.png'),
+        image_second: require('../images/placeholder-image.png'),
+        article_text_first: '------------- Work in progress -------------',    
+        article_text_second: '------------- Work in progress -------------',   
+        article_text_third: '------------- Work in progress -------------',  
+    }, 
+    {
+        id : 1,
+        header: 'Work in progress',
+        image_first: require('../images/placeholder-image.png'),
+        image_second: require('../images/placeholder-image.png'),
+        article_text_first: '------------- Work in progress -------------',    
+        article_text_second: '------------- Work in progress -------------',   
+        article_text_third: '------------- Work in progress -------------',  
+    }, 
+    {
+        id : 2,
+        header: 'Work in progress',
+        image_first: require('../images/placeholder-image.png'),
+        image_second: require('../images/placeholder-image.png'),
+        article_text_first: '------------- Work in progress -------------',    
+        article_text_second: '------------- Work in progress -------------',   
+        article_text_third: '------------- Work in progress ------------- ',  
+    }, 
+    {
+        id : 3,
+        header: 'Work in progress',
+        image_first: require('../images/placeholder-image.png'),
+        image_second: require('../images/placeholder-image.png'),
+        article_text_first: '------------- Work in progress -------------',    
+        article_text_second: '------------- Work in progress -------------',   
+        article_text_third: '------------- Work in progress -------------',  
+    }, 
+]
