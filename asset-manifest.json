@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/bbeardies/static/css/main.c10e1629.css",
+    "main.js": "/bbeardies/static/js/main.d6daf622.js",
+    "static/js/787.9e35d85d.chunk.js": "/bbeardies/static/js/787.9e35d85d.chunk.js",
+    "static/media/1.jpg": "/bbeardies/static/media/1.7eb5dcdd608cbe11f766.jpg",
+    "static/media/4.jpg": "/bbeardies/static/media/4.cdffaa777c3e4b8ac118.jpg",
+    "static/media/5.jpg": "/bbeardies/static/media/5.3e103d837d6fe277af3f.jpg",
+    "static/media/3.jpg": "/bbeardies/static/media/3.158e0ab10d1ba9d0ee11.jpg",
+    "static/media/2.jpg": "/bbeardies/static/media/2.6296217c8a15e6a2c00a.jpg",
+    "static/media/Chilli.jpg": "/bbeardies/static/media/Chilli.a83f6e7a069b378636a8.jpg",
+    "static/media/Saab.jpg": "/bbeardies/static/media/Saab.d50caa9905900f1bfd0a.jpg",
+    "static/media/Chilli_brumation.jpg": "/bbeardies/static/media/Chilli_brumation.a8a329b7252e7e50d04a.jpg",
+    "static/media/babybeardeddragon.jpg": "/bbeardies/static/media/babybeardeddragon.15fcbb415a9415481099.jpg",
+    "static/media/terariums.jpg": "/bbeardies/static/media/terariums.13b300e8c2758f2b1dd6.jpg",
+    "static/media/whole_logo_big.png": "/bbeardies/static/media/whole_logo_big.ac7fac72aab25ebc945d.png",
+    "static/media/whatsapp_bw.png": "/bbeardies/static/media/whatsapp_bw.29dd41c9009c90f690c6.png",
+    "static/media/instagram_bw.png": "/bbeardies/static/media/instagram_bw.de63c95b2ec49e3247cc.png",
+    "static/media/twitter_bw.png": "/bbeardies/static/media/twitter_bw.67ad063d90a28a5bdecc.png",
+    "static/media/youtube_bw.png": "/bbeardies/static/media/youtube_bw.333cd8933abe9887d252.png",
+    "static/media/small_logo.png": "/bbeardies/static/media/small_logo.5dcf079ca211736f34c2.png",
+    "static/media/right_arrow.png": "/bbeardies/static/media/right_arrow.fe436b60c1cf67e851f2.png",
+    "static/media/left_arrow.png": "/bbeardies/static/media/left_arrow.9f846f79e6f7cbd7d977.png",
+    "static/media/facebook_bw.png": "/bbeardies/static/media/facebook_bw.5f7c3102efb4d0615fe3.png",
+    "index.html": "/bbeardies/index.html",
+    "main.c10e1629.css.map": "/bbeardies/static/css/main.c10e1629.css.map",
+    "main.d6daf622.js.map": "/bbeardies/static/js/main.d6daf622.js.map",
+    "787.9e35d85d.chunk.js.map": "/bbeardies/static/js/787.9e35d85d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c10e1629.css",
+    "static/js/main.d6daf622.js"
+  ]
+}
