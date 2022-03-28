@@ -26,7 +26,7 @@ function App() {
     
     return (   
     <>
-<Router >
+<HashRouter basename='/' >
         <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
@@ -60,7 +60,7 @@ function App() {
         </Routes>
         </div>
         <Footer></Footer>
- </Router>
+ </HashRouter>
  </>
  )   
 }

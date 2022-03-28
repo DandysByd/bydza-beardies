@@ -15,7 +15,7 @@
         top: 35px;
     }
     .burger-active{
-        top: 35px !important;
+        top: 40px !important;
     }
     .spacing{
         display: none;
@@ -122,11 +122,18 @@
     .text-div-inner{
         width: 100%;
     }
+    .single-article-div-wrapper{
+        margin-top: 8%;
+    }
+    .contact-form-div{
+        margin: 0px;
+        width: 100%;
+    }
     .text-div-outer{
         margin: 3%;
     }
     .burger {
-        top: 30px !important;
+        top: 40px !important;
     }   
     .everything-div{
         margin: 2%;
@@ -166,6 +173,7 @@
     .article-image{
         position: unset !important;
     }
+
     .text-div-inner{
         margin: 0px;
     }
