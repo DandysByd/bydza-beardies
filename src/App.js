@@ -26,8 +26,9 @@ function App() {
     
     return (   
     <>
-<Router >
-      {/*   <nav id='navbar'>
+    <h1>Henlo</h1>
+{/* <Router >
+        <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
                 <NavLink onClick={closeMenu} exact className='img-logo' activeClassName='is-active' to="/"><img className='logo-img' src={require('./images/logo/whole_logo_big.png')}></img></NavLink>
@@ -44,7 +45,7 @@ function App() {
                 <div className='line2'></div>
                 <div className='line3'></div>
             </div>
-        </nav> */}
+        </nav>
 
     <div className='everything-div'>
 
@@ -59,7 +60,7 @@ function App() {
         </Routes>
         </div>
         <Footer></Footer>
- </Router>
+ </Router> */}
  </>
  )   
 }
