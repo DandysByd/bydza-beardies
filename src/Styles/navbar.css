@@ -31,7 +31,7 @@ ul{
 #navbar ul:first-child{
     float: left;
     width: 12%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .second-ul {
     margin-top: 3%;
@@ -197,6 +197,6 @@ ul{
         margin: 6px;
     }
     .second-ul{
-        top:90px;
+        top:100px;
     }
 }
