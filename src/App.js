@@ -26,7 +26,7 @@ function App() {
     
     return (   
     <>
-<Router basename='/bbeardies'>
+<Router >
         <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
