@@ -3,18 +3,20 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Contact_Hatchling from './Contact_Hatchling';
 import Mail_form from './Mail_form';
+import dragons_for_sale from '../database/dragons_for_sale';
 
 function Breeder_card() {
 
 
-    const [dragons, setDragons] = useState('');
     
+    /*
+    const [dragons, setDragons] = useState('');
     useEffect(()=>{
         axios.get('http://localhost:8000/read').then((response)=>{
             setDragons(response.data)
         })
     }, [])
-
+ */
     const [beardieId, setBeardieId] = useState(null)
 
 
@@ -31,7 +33,7 @@ function Breeder_card() {
         console.log(beardieId)
     }
 
-    if (dragons.length ===0) {
+    if (dragons_for_sale.length ===0) {
         return(
             <div className='info-div'>
             <h3 className='information-text'>No offsprings yet. insert your email below, if you want to be informed about new baby dragons.</h3>
@@ -46,16 +48,16 @@ function Breeder_card() {
                  <h3 className='information-text'>Price you see is bounded to one dragon, price for delivery is <span className='visible'>NOT</span> included and will be added.</h3>
                  </div>
              <div className='dragons-for-sale-div'>
-            {dragons.map((x,key)=>{
+            {dragons_for_sale.map((x,key)=>{
                 const result = x.birthday.toString().slice(0,-14)
                 return(
                     beardieId === x.id ? (
-                        dragons.map((x,key)=>{
+                        dragons_for_sale.map((x,key)=>{
                             return(
                                 beardieId===x.id?(
                             <div className='beardie-info-div'>
                             <div onClick={resetId} className='image-div-detail'>
-                            <img className='bearded-dragon-image-detail' src={x.photo} alt='idk'></img>
+                            <img className='bearded-dragon-image-detail' src={require(x.photo)} alt='idk'></img>
                             </div>
                                 <div className='text-div-hatchlings'>
                             <h1>{x.indication} {x.sex} {x.morph}</h1>

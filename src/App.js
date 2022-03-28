@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Styles/navbar.css';
-import {BrowserRouter as Router, Routes, Route, NavLink, HashRouter} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom'
 import AboutUs from './Sites/AboutUs';
 import Breeders from './Sites/Breeders';
 import Hatchlings from './Sites/Hatchlings';
@@ -26,8 +26,7 @@ function App() {
     
     return (   
     <>
-<HashRouter basename={process.env.PUBLIC_URL}>
-
+<Router >
         <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
@@ -52,15 +51,16 @@ function App() {
          <div className='spacing'>
          </div>
         <Routes>
-            <Route exact path="/" component={<AboutUs/>}/>
-            <Route exact path="/breeders" component={<Breeders/>}/>
-            <Route exact path="/dragons-for-sale" component={<Hatchlings/>}/>
-            <Route exact path="/care-guide-and-transport" component={<Actualities/>}/>
-            <Route exact path="/contact" component={<Contact/>}/>
+            <Route exact path="/" element={<AboutUs/>}/>
+            <Route exact path="/breeders" element={<Breeders/>}/>
+            <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
+            <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
+            <Route exact path="/contact" element={<Contact/>}/>
+            <Route exact path="/amn" element={<Amn/>}/>
         </Routes>
         </div>
         <Footer></Footer>
- </HashRouter>
+ </Router>
  </>
  )   
 }
