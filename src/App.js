@@ -7,9 +7,7 @@ import Hatchlings from './Sites/Hatchlings';
 import Actualities from './Sites/Articles';
 import Contact from './Sites/Contact';
 import Footer from './Components/Footer';
-
 import './Styles/main_css.css'
-import Amn from './Amn';
 
 function App() {
     
@@ -51,12 +49,11 @@ function App() {
          <div className='spacing'>
          </div>
         <Routes>
-            <Route exact path="/" element={<AboutUs/>}/>
-            <Route exact path="/breeders" element={<Breeders/>}/>
-            <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
-            <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
-            <Route exact path="/contact" element={<Contact/>}/>
-            <Route exact path="/amn" element={<Amn/>}/>
+            <Route exact path={process.env.PUBLIC_URL + "/"} element={<AboutUs/>}/>
+            <Route exact path={process.env.PUBLIC_URL + "/breeders"} element={<Breeders/>}/>
+            <Route exact path={process.env.PUBLIC_URL + "/dragons-for-sale"} element={<Hatchlings/>}/>
+            <Route exact path={process.env.PUBLIC_URL + "/care-guide-and-transport"} element={<Actualities/>}/>
+            <Route exact path={process.env.PUBLIC_URL + "/contact"} element={<Contact/>}/>
         </Routes>
         </div>
         <Footer></Footer>
