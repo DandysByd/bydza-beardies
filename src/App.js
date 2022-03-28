@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Styles/navbar.css';
-import {BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, NavLink, HashRouter} from 'react-router-dom'
 import AboutUs from './Sites/AboutUs';
 import Breeders from './Sites/Breeders';
 import Hatchlings from './Sites/Hatchlings';
