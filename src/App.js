@@ -56,7 +56,8 @@ function App() {
             <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
             <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
             <Route exact path="/contact" element={<Contact/>}/>
-          </Routes>
+            <Route exact path="/amn" element={<Amn/>}/>
+        </Routes>
         </div>
         <Footer></Footer>
  </HashRouter>
