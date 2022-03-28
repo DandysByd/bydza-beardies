@@ -59,6 +59,7 @@ function App() {
             <Route exact path="/amn" element={<Amn/>}/>
         </Routes>
         </div>
+        <Footer></Footer>
  </Router>
  </>
  )   
