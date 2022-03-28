@@ -26,8 +26,7 @@ function App() {
     
     return (   
     <>
-    <h1>Henlo</h1>
-{/* <Router >
+<Router >
         <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
@@ -51,16 +50,16 @@ function App() {
 
          <div className='spacing'>
          </div>
-        <Routes>
+        {/* <Routes>
             <Route exact path="/" element={<AboutUs/>}/>
             <Route exact path="/breeders" element={<Breeders/>}/>
             <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
             <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
             <Route exact path="/contact" element={<Contact/>}/>
-        </Routes>
+        </Routes> */}
         </div>
         <Footer></Footer>
- </Router> */}
+ </Router>
  </>
  )   
 }
