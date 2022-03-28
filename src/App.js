@@ -52,11 +52,11 @@ function App() {
          <div className='spacing'>
          </div>
         <Routes>
-            <Route exact path="/" element={<AboutUs/>}/>
-            <Route exact path="/breeders" element={<Breeders/>}/>
-            <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
-            <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
-            <Route exact path="/contact" element={<Contact/>}/>
+            <Route exact path="/" component={<AboutUs/>}/>
+            <Route exact path="/breeders" component={<Breeders/>}/>
+            <Route exact path="/dragons-for-sale" component={<Hatchlings/>}/>
+            <Route exact path="/care-guide-and-transport" component={<Actualities/>}/>
+            <Route exact path="/contact" component={<Contact/>}/>
         </Routes>
         </div>
         <Footer></Footer>
