@@ -7,7 +7,9 @@ import Hatchlings from './Sites/Hatchlings';
 import Actualities from './Sites/Articles';
 import Contact from './Sites/Contact';
 import Footer from './Components/Footer';
+
 import './Styles/main_css.css'
+import Amn from './Amn';
 
 function App() {
     
@@ -25,7 +27,7 @@ function App() {
     return (   
     <>
 <Router >
-        <nav id='navbar'>
+      {/*   <nav id='navbar'>
                 <ul className='first-ul'>
                 <NavLink onClick={closeMenu} className='contact-link' exact activeClassName='is-active' to="/contact">Contact</NavLink>
                 <NavLink onClick={closeMenu} exact className='img-logo' activeClassName='is-active' to="/"><img className='logo-img' src={require('./images/logo/whole_logo_big.png')}></img></NavLink>
@@ -42,18 +44,18 @@ function App() {
                 <div className='line2'></div>
                 <div className='line3'></div>
             </div>
-        </nav>
+        </nav> */}
 
     <div className='everything-div'>
 
          <div className='spacing'>
          </div>
         <Routes>
-            <Route exact path={process.env.PUBLIC_URL + "/"} element={<AboutUs/>}/>
-            <Route exact path={process.env.PUBLIC_URL + "/breeders"} element={<Breeders/>}/>
-            <Route exact path={process.env.PUBLIC_URL + "/dragons-for-sale"} element={<Hatchlings/>}/>
-            <Route exact path={process.env.PUBLIC_URL + "/care-guide-and-transport"} element={<Actualities/>}/>
-            <Route exact path={process.env.PUBLIC_URL + "/contact"} element={<Contact/>}/>
+            <Route exact path="/" element={<AboutUs/>}/>
+            <Route exact path="/breeders" element={<Breeders/>}/>
+            <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
+            <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
+            <Route exact path="/contact" element={<Contact/>}/>
         </Routes>
         </div>
         <Footer></Footer>
