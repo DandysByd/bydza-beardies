@@ -9,13 +9,9 @@ function Fading_div(props) {
         Aos.init({ duration: 2000 });
     }, []);
 
-    function toTop() {
-        window.scrollTo(0,0)
-    }
-
     return (
         <div className='fading-div-wrapper'>
-            <Link onClick={toTop} to={props.link}>
+            <Link to={props.link}>
                 <div data-aos={props.fadeside} className={'fading-div-' + props.side}>
                     <div className='image-wrapper'><img src={props.image} alt={props.alt}></img></div>
                     <div style={{ textDecoration: 'none' }} className='fading-div-text'>
