@@ -52,12 +52,11 @@ function App() {
          </div>
         <Routes>
             <Route exact path="/" element={<AboutUs/>}/>
-            <Route path="/breeders" element={<Breeders/>}/>
-            <Route path="/dragons-for-sale" element={<Hatchlings/>}/>
-            <Route path="/care-guide-and-transport" element={<Actualities/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-            <Route path="/amn" element={<Amn/>}/>
-        </Routes>
+            <Route exact path="/breeders" element={<Breeders/>}/>
+            <Route exact path="/dragons-for-sale" element={<Hatchlings/>}/>
+            <Route exact path="/care-guide-and-transport" element={<Actualities/>}/>
+            <Route exact path="/contact" element={<Contact/>}/>
+          </Routes>
         </div>
         <Footer></Footer>
  </HashRouter>
