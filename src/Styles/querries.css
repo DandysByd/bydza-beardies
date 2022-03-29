@@ -130,14 +130,17 @@
     .text-div-outer{
         margin: 3%;
     }
+    .burger-active{
+        top: 45px !important;
+    }
     .burger {
-        top: 30px !important;
+        top: 40px !important;
     }   
     .everything-div{
         margin: 2%;
     }
     #root{
-        min-height: 800px;
+        min-height: 700px;
     }
     .spacing{
        height: 80px;
@@ -211,5 +214,8 @@
 }
 .fading-div-text{
     margin-top: 10px;
+}
+.first-ul{
+    margin-top: auto;
 }
 }
