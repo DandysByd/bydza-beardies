@@ -122,6 +122,10 @@
     .text-div-inner{
         width: 100%;
     }
+    .contact-form-div{
+        width: 100%;
+        margin: 0px;
+    }
     .text-div-outer{
         margin: 3%;
     }

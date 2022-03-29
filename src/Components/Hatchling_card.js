@@ -36,7 +36,7 @@ function Breeder_card() {
     if (dragons_for_sale.length ===0) {
         return(
             <div className='info-div'>
-            <h3 className='information-text'>No offsprings yet. insert your email below, if you want to be informed about new baby dragons.</h3>
+            <h3 className='information-text'>No offsprings yet. If you want to be informed about new baby dragons, insert your email below.</h3>
             <Mail_form></Mail_form>
             </div>
         )

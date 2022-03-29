@@ -52,11 +52,11 @@ function App() {
          </div>
         <Routes>
             <Route exact path="/bydza-beardies" element={<AboutUs/>}/>
-            <Route path="/bydza-beardies/breeders" element={<Breeders/>}/>
-            <Route path="/bydza-beardies/dragons-for-sale" element={<Hatchlings/>}/>
-            <Route path="/bydza-beardies/care-guide-and-transport" element={<Actualities/>}/>
-            <Route path="/bydza-beardies/contact" element={<Contact/>}/>
-            <Route path="/bydza-beardies/amn" element={<Amn/>}/>
+            <Route path="/breeders" element={<Breeders/>}/>
+            <Route path="/dragons-for-sale" element={<Hatchlings/>}/>
+            <Route path="/care-guide-and-transport" element={<Actualities/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/amn" element={<Amn/>}/>
         </Routes>
         </div>
         <Footer></Footer>
