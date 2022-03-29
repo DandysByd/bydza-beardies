@@ -36,7 +36,7 @@ function App() {
             <ul className={active ?'second-ul-non-active':'second-ul' }>
                 <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/breeders">Our Breeders</NavLink>
                 <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/dragons-for-sale">Dragons For Sale</NavLink>
-                <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/care-guide-and-more">Care Guide & Transport</NavLink>
+                <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/care-guide-and-more">Care Guide & More</NavLink>
                 <NavLink onClick={closeMenu} className='nav-link contact-nav' exact activeClassName='is-active' to="/bydza-beardies/contact">Contact</NavLink>
             </ul>
             <div onClick={toggleNav} className={active ? 'burger': 'burger-active'}>
