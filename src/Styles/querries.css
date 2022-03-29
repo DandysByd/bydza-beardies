@@ -216,6 +216,6 @@
     margin-top: 10px;
 }
 .first-ul{
-    margin-top: auto;
+    margin-top: revert;
 }
 }
