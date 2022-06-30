@@ -7,7 +7,7 @@ function Single_article(props) {
         {
             articles.map(x =>{
                 return(
-                  props.a === x.id ? 
+                  props.a === x.id ?  
                   <div className='text-div-outer'>
                     <div className='text-div-inner'>
                         <div className='first-article-div'>
