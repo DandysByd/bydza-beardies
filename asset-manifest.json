@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/bydza-beardies/static/css/main.e80cb26a.css",
+    "main.js": "/bydza-beardies/static/js/main.9ddbd353.js",
+    "static/js/787.9e35d85d.chunk.js": "/bydza-beardies/static/js/787.9e35d85d.chunk.js",
+    "static/media/1.jpg": "/bydza-beardies/static/media/1.6ee5bea7a69816134969.jpg",
+    "static/media/4.jpg": "/bydza-beardies/static/media/4.cdffaa777c3e4b8ac118.jpg",
+    "static/media/5.jpg": "/bydza-beardies/static/media/5.3e103d837d6fe277af3f.jpg",
+    "static/media/3.jpg": "/bydza-beardies/static/media/3.158e0ab10d1ba9d0ee11.jpg",
+    "static/media/2.jpg": "/bydza-beardies/static/media/2.f694d5df4d34795f02c9.jpg",
+    "static/media/finished.jpg": "/bydza-beardies/static/media/finished.789e820ebe893ec4cdd7.jpg",
+    "static/media/Chilli.jpg": "/bydza-beardies/static/media/Chilli.a83f6e7a069b378636a8.jpg",
+    "static/media/Saab.jpg": "/bydza-beardies/static/media/Saab.d50caa9905900f1bfd0a.jpg",
+    "static/media/terariums.jpg": "/bydza-beardies/static/media/terariums.c0ed582b3b8d59b63525.jpg",
+    "static/media/final.jpg": "/bydza-beardies/static/media/final.f05a3b86b9412df4e41d.jpg",
+    "static/media/Chilli_brumation.jpg": "/bydza-beardies/static/media/Chilli_brumation.a8a329b7252e7e50d04a.jpg",
+    "static/media/babybeardeddragon.jpg": "/bydza-beardies/static/media/babybeardeddragon.15fcbb415a9415481099.jpg",
+    "static/media/whole_logo_big.png": "/bydza-beardies/static/media/whole_logo_big.ac7fac72aab25ebc945d.png",
+    "static/media/whatsapp_bw.png": "/bydza-beardies/static/media/whatsapp_bw.29dd41c9009c90f690c6.png",
+    "static/media/instagram_bw.png": "/bydza-beardies/static/media/instagram_bw.de63c95b2ec49e3247cc.png",
+    "static/media/twitter_bw.png": "/bydza-beardies/static/media/twitter_bw.67ad063d90a28a5bdecc.png",
+    "static/media/youtube_bw.png": "/bydza-beardies/static/media/youtube_bw.333cd8933abe9887d252.png",
+    "static/media/small_logo.png": "/bydza-beardies/static/media/small_logo.5dcf079ca211736f34c2.png",
+    "static/media/right_arrow.png": "/bydza-beardies/static/media/right_arrow.fe436b60c1cf67e851f2.png",
+    "static/media/left_arrow.png": "/bydza-beardies/static/media/left_arrow.9f846f79e6f7cbd7d977.png",
+    "static/media/facebook_bw.png": "/bydza-beardies/static/media/facebook_bw.5f7c3102efb4d0615fe3.png",
+    "index.html": "/bydza-beardies/index.html",
+    "main.e80cb26a.css.map": "/bydza-beardies/static/css/main.e80cb26a.css.map",
+    "main.9ddbd353.js.map": "/bydza-beardies/static/js/main.9ddbd353.js.map",
+    "787.9e35d85d.chunk.js.map": "/bydza-beardies/static/js/787.9e35d85d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e80cb26a.css",
+    "static/js/main.9ddbd353.js"
+  ]
+}
