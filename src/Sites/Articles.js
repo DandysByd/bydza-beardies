@@ -36,7 +36,7 @@ function Actualities() {
                  
                     <div className='single-article-div-wrapper'>
                         <div className='single-article-div'>
-                        <div className='image-div'><img className='image' alt={x.header +' image'} src={x.image_first}></img></div>
+                        <div className='image-div'><img className='image' alt={x.header +' image'} src={x.image_header}></img></div>
                         <div className='text-div'>
                             <h2 className='article-header'>{x.header}</h2>
                             <span className='article-text-unclicked'>{x.article_text_first}</span>

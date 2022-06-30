@@ -22,6 +22,8 @@ function Single_article(props) {
                             <div className='third-article-div'>
                             <span className='article-text article-text-third'>{x.article_text_third}</span>
                               </div>
+                          <img className='article-image first-article-image' src={x.image_third} alt='article-image'></img>
+
                     </div>
                   </div>
                   :
