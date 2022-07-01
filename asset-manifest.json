@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bydza-beardies/static/css/main.e80cb26a.css",
-    "main.js": "/bydza-beardies/static/js/main.9ddbd353.js",
+    "main.js": "/bydza-beardies/static/js/main.2d8f8fd8.js",
     "static/js/787.9e35d85d.chunk.js": "/bydza-beardies/static/js/787.9e35d85d.chunk.js",
     "static/media/1.jpg": "/bydza-beardies/static/media/1.6ee5bea7a69816134969.jpg",
     "static/media/4.jpg": "/bydza-beardies/static/media/4.cdffaa777c3e4b8ac118.jpg",
@@ -26,11 +26,11 @@
     "static/media/facebook_bw.png": "/bydza-beardies/static/media/facebook_bw.5f7c3102efb4d0615fe3.png",
     "index.html": "/bydza-beardies/index.html",
     "main.e80cb26a.css.map": "/bydza-beardies/static/css/main.e80cb26a.css.map",
-    "main.9ddbd353.js.map": "/bydza-beardies/static/js/main.9ddbd353.js.map",
+    "main.2d8f8fd8.js.map": "/bydza-beardies/static/js/main.2d8f8fd8.js.map",
     "787.9e35d85d.chunk.js.map": "/bydza-beardies/static/js/787.9e35d85d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e80cb26a.css",
-    "static/js/main.9ddbd353.js"
+    "static/js/main.2d8f8fd8.js"
   ]
 }
