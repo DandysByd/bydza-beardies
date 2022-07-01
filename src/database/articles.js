@@ -13,6 +13,7 @@ module.exports = [
     {
         id : 1,
         header: 'Work in progress',
+        image_header: require('../images/articles/placeholder-image.png'),
         image_first: require('../images/placeholder-image.png'),
         image_second: require('../images/placeholder-image.png'),
         article_text_first: '------------- Work in progress -------------',    
@@ -22,6 +23,7 @@ module.exports = [
     {
         id : 2,
         header: 'Work in progress',
+        image_header: require('../images/articles/placeholder-image.png'),
         image_first: require('../images/placeholder-image.png'),
         image_second: require('../images/placeholder-image.png'),
         article_text_first: '------------- Work in progress -------------',    
@@ -31,6 +33,7 @@ module.exports = [
     {
         id : 3,
         header: 'Work in progress',
+        image_header: require('../images/articles/placeholder-image.png'),
         image_first: require('../images/placeholder-image.png'),
         image_second: require('../images/placeholder-image.png'),
         article_text_first: '------------- Work in progress -------------',    
