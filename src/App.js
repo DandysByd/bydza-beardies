@@ -36,7 +36,7 @@ function App() {
             <ul className={active ?'second-ul-non-active':'second-ul' }>
                 <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/breeders">Our Breeders</NavLink>
                 <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/dragons-for-sale">Dragons For Sale</NavLink>
-                <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/care-guide-and-more">Care Guide & More</NavLink>
+                <NavLink onClick={closeMenu} className='nav-link' exact activeClassName='is-active' to="/bydza-beardies/articles">Articles</NavLink>
                 <NavLink onClick={closeMenu} className='nav-link contact-nav' exact activeClassName='is-active' to="/bydza-beardies/contact">Contact</NavLink>
             </ul>
             <div onClick={toggleNav} className={active ? 'burger': 'burger-active'}>
@@ -54,7 +54,7 @@ function App() {
             <Route exact path="/bydza-beardies" element={<AboutUs/>}/>
             <Route path="/bydza-beardies/breeders" element={<Breeders/>}/>
             <Route path="/bydza-beardies/dragons-for-sale" element={<Hatchlings/>}/>
-            <Route path="/bydza-beardies/care-guide-and-more" element={<Actualities/>}/>
+            <Route path="/bydza-beardies/articles" element={<Actualities/>}/>
             <Route path="/bydza-beardies/contact" element={<Contact/>}/>
             <Route path="/bydza-beardies/amn" element={<Amn/>}/>
         </Routes>
