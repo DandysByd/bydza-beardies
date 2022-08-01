@@ -1,0 +1,91 @@
+.left-div{
+    width: 45%;
+    height: 100%;
+}
+.basic-info{
+    width: 100%;
+    height: 50%;
+}
+.right-div{
+    height: 100%;
+    width: 55%;
+}
+.main-divs{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch!important;
+    margin-bottom: 10%;
+}
+.fotogallery{
+    width: 100%;
+    height: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* basic info styling */
+.who-are-we-header{
+    font-size: 170%;
+    
+}
+.basic-info-text{
+    font-weight: 700;
+    font-size: 110%;
+    font-family: Lora,sans-serif;
+    margin: 4%;
+}
+.basic-info-text a {
+    color: black;
+    font-size: 120%;
+    text-decoration: none;
+}
+.article{
+    color: white;
+    text-align: center;
+    margin: 20%;
+    margin-top: 10%;
+}
+.basic-info-text{
+    margin-top: 20px;
+}
+
+
+
+/* Info boxes */
+.fading-div-left{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(34, 31, 31);
+}
+.fading-div-right{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(34, 31, 31);
+}
+.fading-div-wrapper img{
+    height: 100%;
+}
+.slide-in-header:hover{
+    opacity: 1;
+}
+.fading-div-wrapper{
+    width: 85%;
+    margin-bottom: 5%;
+}
+.fading-div-text{
+    margin: 2%;
+    margin-top: 15%;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.fading-div-wrapper:nth-child(odd){
+    float: right;
+}

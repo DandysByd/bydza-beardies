@@ -1,0 +1,80 @@
+.contacts{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center
+}
+
+p{
+    font-size: 15px;
+}
+h1{
+    font-size: 26px;
+}
+iframe{
+    width: 100%;
+    margin: 0px;
+}
+.contact-form{
+    margin-top:5%;
+    margin-bottom: 5%;
+    color: #d1c6c2;
+}
+.contact-type{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact-card{
+    color: #d1c6c2;
+    width: auto;
+    margin: 4%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.form-contacts{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+.contact-form-div textarea{
+    height: 100px;
+}
+.contact-form-div .submit{
+    cursor: pointer;
+}
+.contact-form-div{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+li{
+    margin: 6px;
+}
+.social-media-list{
+    display: flex;
+    margin: auto;
+    justify-content: center
+}
+.social-media-icon a{
+    font-size: 17px !important;
+}
+.social-media-icon{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.social-media{
+    margin-bottom: 2%;
+}
+.outer-media-div{
+    cursor: pointer;
+}
+.media-img-number{
+    margin-top: 4%;
+    width: 100%;
+}
+.media-img-number:hover{
+    transition: 0s !important;
+}
+#whatsaaap:hover{
+    transition: 0s !important;
+}
